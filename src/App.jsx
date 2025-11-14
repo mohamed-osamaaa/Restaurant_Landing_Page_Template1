@@ -1,6 +1,7 @@
+import About from './components/about';
 import BannerImage from './components/bannerImage';
 import Header from './components/header';
-import Part1 from './components/part1';
+import Home from './components/home';
 
 function App() {
 
@@ -8,7 +9,8 @@ function App() {
     <>
       <BannerImage />
       <Header />
-      <Part1 />
+      <Home />
+      <About />
     </>
   )
 }

@@ -2,9 +2,9 @@ import Image1 from '../assets/image.png';
 
 function Part1() {
     return (
-        <div className='flex justify-center -mt-28'>
-            <div className='flex items-center ml-7'>
-                <div className='flex-col items-start gap-10'>
+        <div className='flex justify-center -mt-28 ml-24'>
+            <div className='flex items-center w-100'>
+                <div className='flex flex-col items-start gap-10'>
                     <p className='text-4xl'>
                         Your Favourite Food Delivered Hot & Fresh
                     </p>
@@ -15,7 +15,7 @@ function Part1() {
                 </div>
             </div>
             <div>
-                <img src={Image1} alt="Image1" />
+                <img src={Image1} alt="Image1" className='w-[1146px] h-[1024px] md:w-[900px] sm:w-full' />
             </div>
         </div>
     )

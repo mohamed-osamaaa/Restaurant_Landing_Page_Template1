@@ -1,7 +1,10 @@
 import About from './components/about';
 import BannerImage from './components/bannerImage';
+import Contact from './components/contact';
 import Header from './components/header';
 import Home from './components/home';
+import Testimonial from './components/testimonial';
+import Work from './components/work';
 
 function App() {
 
@@ -11,6 +14,9 @@ function App() {
       <Header />
       <Home />
       <About />
+      <Work />
+      <Testimonial />
+      <Contact />
     </>
   )
 }

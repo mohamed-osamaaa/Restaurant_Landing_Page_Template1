@@ -1,6 +1,7 @@
 import About from './components/about';
 import BannerImage from './components/bannerImage';
 import Contact from './components/contact';
+import Footer from './components/footer';
 import Header from './components/header';
 import Home from './components/home';
 import Testimonial from './components/testimonial';
@@ -17,6 +18,7 @@ function App() {
       <Work />
       <Testimonial />
       <Contact />
+      <Footer />
     </>
   )
 }

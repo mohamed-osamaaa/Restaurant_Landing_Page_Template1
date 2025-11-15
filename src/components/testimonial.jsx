@@ -2,8 +2,8 @@ import profile from '../assets/john-doe-image.png';
 
 function Testimonial() {
     return (
-        <div className='flex flex-col my-32 gap-20'>
-            <div className='flex flex-col items-center gap-9 w-xl mx-auto'>
+        <div id='testimonial' className='flex flex-col my-32 gap-20'>
+            <div className='flex flex-col items-center gap-9 mt-10 w-xl mx-auto'>
                 <h2 className="text-xl text-orange-500">Testimonial</h2>
                 <p className="text-4xl font-bold">What They Are Saying</p>
                 <p className='text-gray-500 text-center'>

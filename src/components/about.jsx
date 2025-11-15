@@ -3,7 +3,7 @@ import aboutImage from '../assets/aboutImage.png';
 
 function About() {
     return (
-        <div className='mt-10'>
+        <div id='about' className='mt-10'>
             <img src={aboutImage} alt="aboutImage" className='absolute w-[935px] h-[629px] -left-20 mt-36 z-10' />
             <div className='relative flex justify-between items-center'>
                 <img src={aboutBanner} alt="aboutBanner" className='w-[331px] h-[865px]' />

@@ -1,6 +1,6 @@
 function Contact() {
     return (
-        <>
+        <div id='contact'>
             <div className="flex flex-col items-center my-10">
                 <p className="text-4xl font-bold">
                     Have Question In Mind?
@@ -17,7 +17,7 @@ function Contact() {
                     </button>
                 </form>
             </div>
-        </>
+        </div>
     )
 }
 

@@ -4,10 +4,10 @@ import aboutImage from '../assets/aboutImage.png';
 function About() {
     return (
         <div id='about' className='mt-10'>
-            <img src={aboutImage} alt="aboutImage" className='absolute hidden md:flex w-[635px] h-auto -left-36 lg:-left-20 mt-36 z-10' />
+            <img src={aboutImage} alt="aboutImage" className='absolute hidden md:flex w-[635px] lg:w-[735px] h-auto -left-36 lg:-left-20 mt-36 z-10' />
             <div className='relative flex justify-between items-center'>
                 <img src={aboutBanner} alt="aboutBanner" className='w-[331px] h-[865px] hidden md:flex' />
-                <div className='flex flex-col items-center md:items-start text-center md:text-start w-1/2 md:w-1/3 mx-auto md:mr-14 mt-28 md:mt-0 lg:mr-72 gap-10'>
+                <div className='flex flex-col items-center md:items-start text-center md:text-start w-full mx-7 md:w-1/3 md:mx-auto md:mr-14 mt-28 md:mt-0 lg:mr-72 gap-10'>
                     <h2 className='text-xl text-orange-500'>About</h2>
                     <h2 className='text-2xl md:text-4xl font-bold'>
                         Food Is An Important Part Of A Balanced Diet

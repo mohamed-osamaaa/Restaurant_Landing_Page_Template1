@@ -1,6 +1,20 @@
+import { useEffect } from 'react';
+
+import ScrollReveal from 'scrollreveal';
+
 import profile from '../assets/john-doe-image.png';
 
 function Testimonial() {
+
+    useEffect(() => {
+        ScrollReveal().reveal('.reveal', {
+            distance: '50px',
+            duration: 1000,
+            easing: 'ease-in-out',
+            origin: 'bottom',
+        });
+    }, []);
+
     return (
         <div id='testimonial' className='flex flex-col my-32 gap-20'>
             <div className='flex flex-col items-center text-center gap-9 mx-5 md:w-1/3 mt-10 md:mx-auto'>
@@ -10,7 +24,7 @@ function Testimonial() {
                     Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et elit. Dolor  turpis molestie dui magnis facilisis at fringilla quam.
                 </p>
             </div>
-            <div className="flex flex-col items-center text-center bg-white p-2 px-5 gap-6 mx-5 lg:w-1/3 md:w-1/2 md:mx-auto rounded-2xl">
+            <div className="flex flex-col items-center text-center bg-white p-2 px-5 gap-6 mx-5 lg:w-1/3 md:w-1/2 md:mx-auto rounded-2xl reveal">
                 <img src={profile} alt="profile" />
                 <p className='text-gray-500'>
                     Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et elit. Dolor  turpis molestie dui magnis facilisis at fringilla quam.

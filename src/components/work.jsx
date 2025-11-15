@@ -1,3 +1,7 @@
+import { useEffect } from 'react';
+
+import ScrollReveal from 'scrollreveal';
+
 import imageFeature2 from '../assets/choose-image.png';
 import imageFeature3 from '../assets/delivery-image.png';
 import imageFeature1 from '../assets/pick-meals-image.png';
@@ -22,6 +26,18 @@ function Work() {
     ]
 
 
+
+    useEffect(() => {
+        ScrollReveal().reveal('.reveal', {
+            distance: '50px',
+            duration: 1000,
+            easing: 'ease-in-out',
+            origin: 'bottom',
+            interval: 200, // delay between each element
+        });
+    }, []);
+
+
     return (
         <div className='flex flex-col my-32 gap-20'>
             <div className='flex flex-col items-center text-center gap-9 mx-5 md:w-1/3 md:mx-auto'>
@@ -33,7 +49,7 @@ function Work() {
             </div>
             <div className='flex flex-wrap justify-center gap-10'>
                 {features.map((feature, index) => (
-                    <div key={index} className='flex mx-5 w-full sm:w-[45%] lg:w-[30%] lg:mx-0 flex-col items-center text-center p-10 gap-10 bg-white'>
+                    <div key={index} className='flex mx-5 w-full sm:w-[45%] lg:w-[30%] lg:mx-0 flex-col items-center text-center p-10 gap-10 bg-white reveal'>
                         <img src={feature.image} alt={feature.title} className='w-16 h-16' />
                         <h2 className='text-2xl font-bold'>{feature.title}</h2>
                         <p className='text-gray-500'>{feature.description}</p>

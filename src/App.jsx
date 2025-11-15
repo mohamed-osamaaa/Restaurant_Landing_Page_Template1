@@ -10,7 +10,7 @@ import Work from './components/work';
 function App() {
 
   return (
-    <>
+    <div className='relative overflow-x-hidden'>
       <BannerImage />
       <Header />
       <Home />
@@ -19,7 +19,7 @@ function App() {
       <Testimonial />
       <Contact />
       <Footer />
-    </>
+    </div>
   )
 }
 

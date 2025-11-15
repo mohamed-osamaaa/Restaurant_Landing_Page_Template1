@@ -24,16 +24,16 @@ function Work() {
 
     return (
         <div className='flex flex-col my-32 gap-20'>
-            <div className='flex flex-col items-center gap-9 w-xl mx-auto'>
+            <div className='flex flex-col items-center text-center gap-9 w-1/3 mx-auto'>
                 <h2 className="text-xl text-orange-500">Work</h2>
                 <p className="text-4xl font-bold">How It Works</p>
                 <p className='text-gray-500 text-center'>
                     Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et elit. Dolor  turpis molestie dui magnis facilisis at fringilla quam.
                 </p>
             </div>
-            <div className='flex justify-center gap-10'>
+            <div className='flex flex-wrap justify-center gap-10'>
                 {features.map((feature, index) => (
-                    <div key={index} className='flex flex-col items-center text-center w-80 p-10 gap-10 bg-white'>
+                    <div key={index} className='flex mx-5 w-full sm:w-[45%] lg:w-[30%] lg:mx-0 flex-col items-center text-center p-10 gap-10 bg-white'>
                         <img src={feature.image} alt={feature.title} className='w-16 h-16' />
                         <h2 className='text-2xl font-bold'>{feature.title}</h2>
                         <p className='text-gray-500'>{feature.description}</p>

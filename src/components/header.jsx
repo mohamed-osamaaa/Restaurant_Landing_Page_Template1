@@ -7,12 +7,12 @@ function Header() {
     };
 
     return (
-        <header className='relative flex justify-between gap-10 p-4 my-5 mx-32'>
+        <header className='relative flex justify-between gap-10 p-4 my-5 mx-5 lg:mx-32'>
             <div>
                 <h1 className='text-orange-500 tracking-wide font-bold text-3xl'>FOODIE</h1>
             </div>
-            <div className='flex justify-center gap-10'>
-                <ul className='flex items-center gap-10'>
+            <div className='flex justify-center gap-10 md:gap-5'>
+                <ul className='items-center gap-10 hidden md:flex md:gap-5'>
                     <li>
                         <button
                             onClick={() => handleScroll('home')}

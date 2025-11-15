@@ -1,16 +1,55 @@
-# React + Vite
+# Restaurant Landing Page Template 1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[Live Demo](https://foodiev3.netlify.app/)
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a fully responsive restaurant landing page template built with **React**, **Tailwind CSS**, and **ScrollReveal** for smooth scrolling animations. It's designed to provide a modern, visually appealing experience for showcasing a restaurant's services.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Responsive Design**: Works seamlessly on mobile, tablet, and desktop devices.
+* **Scroll Animations**: Engaging animations as users scroll through sections using ScrollReveal.
+* **Meta Tags**: Includes SEO-friendly meta tags for description, Open Graph, and Twitter sharing.
+* **Fast & Modern**: Built with React and Vite for a fast and modern development workflow.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* Tailwind CSS
+* ScrollReveal.js
+* Vite (for bundling and development)
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/mohamed-osamaaa/Restaurant_Landing_Page_Template1.git
+   ```
+2. Navigate to the project directory:
+
+   ```bash
+   cd Restaurant_Landing_Page_Template1
+   ```
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+5. Open your browser at `http://localhost:5173`
+
+## Usage
+
+* Customize the `src/assets` images and the content in `src` components to match your restaurant's branding and offerings.
+* Update the meta tags in `index.html` for SEO and social sharing purposes.
+* Use ScrollReveal in your components to animate sections as users scroll.
+
+## License
+
+This project is open-source and available under the MIT License.
